@@ -1195,16 +1195,15 @@
     "@cds/city" "^1.1.0"
     normalize.css "^8.0.1"
 
-"@cds/react@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@cds/react/-/react-5.1.1.tgz#9e2426aff7bc88701406126d105dd3d176d86f93"
-  integrity sha512-4D0VoqTT0jWVHz4HlLcpomltfP1Qt4xxsgDAsd8j9rCz5XT+kmFhCpxJmurZrm7JpPUAGjhPBLya3L0HaxcQVA==
+"@cds/react@^5.8.4":
+  version "5.8.4"
+  resolved "https://registry.yarnpkg.com/@cds/react/-/react-5.8.4.tgz#3e74230d1352f4a863749c29188481d4abea695b"
+  integrity sha512-dnTKHGEc3zBlwyVz+DZtthhqkVoV8gMS6fiIGb4vnHQgcs0Zt3TC2wlpbRczRdVjZINyGl0j3DSigiUnQUpz1A==
   dependencies:
-    react "^16.13.1"
-    react-dom "^16.13.1"
+    "@lit-labs/react" "^1.0.1"
   optionalDependencies:
     "@cds/city" "^1.1.0"
-    normalize.css "^8.0.1"
+    modern-normalize "^1.1.0"
 
 "@clr/ui@^5.1.1":
   version "5.1.1"
@@ -1696,6 +1695,11 @@
   integrity sha512-iMo32MPLcI9cPxs3YL5kmKxKgDmkSZDCFEqIT5eRk7d/Ll8r4X3SwGYSigzALd6+RHWlFEmjL1QyaQ15xDZFlw==
   dependencies:
     stream "^0.0.2"
+
+"@lit-labs/react@^1.0.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@lit-labs/react/-/react-1.1.1.tgz#88a4320d357dcdfd7c7e276f809e3453a124cbbc"
+  integrity sha512-9TC+/ZWb6BJlWCyUr14FKFlaGnyKpeEDorufXozQgke/VoVrslUQNaL7nBmrAWdNrmzx5jWgi8lFmWwrxMjnlA==
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -9635,6 +9639,11 @@ mock-socket@^9.0.3:
   dependencies:
     url-parse "^1.4.4"
 
+modern-normalize@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/modern-normalize/-/modern-normalize-1.1.0.tgz#da8e80140d9221426bd4f725c6e11283d34f90b7"
+  integrity sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==
+
 moo@^0.5.0:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/moo/-/moo-0.5.1.tgz#7aae7f384b9b09f620b6abf6f74ebbcd1b65dbc4"
@@ -11746,7 +11755,7 @@ react-diff-viewer@^3.1.1:
     memoize-one "^5.0.4"
     prop-types "^15.6.2"
 
-react-dom@^16.13.0, react-dom@^16.13.1:
+react-dom@^16.13.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -12064,7 +12073,7 @@ react-transition-group@^4.4.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@^16.13.0, react@^16.13.1:
+react@^16.13.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==

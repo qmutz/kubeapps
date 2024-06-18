@@ -13,10 +13,10 @@
     "@jest/test-sequencer": "^26.6.3",
     "axios": "^0.21.1",
     "expect-puppeteer": "^4.4.0",
-    "jest": "^26.6.3",
+    "jest": "^28.0.0",
     "jest-circus": "^26.6.3",
     "jest-puppeteer": "^4.4.0",
-    "puppeteer": "^8.0.0",
+    "puppeteer": "^22.6.4",
     "wait-on": "^5.3.0"
   },
   "devDependencies": {
